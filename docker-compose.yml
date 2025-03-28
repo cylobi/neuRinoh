@@ -1,0 +1,6 @@
+﻿services:
+  neurinoh:
+    image: neurinoh
+    build:
+      context: .
+      dockerfile: NeuRinoh/Dockerfile
